@@ -1,0 +1,21 @@
+{
+    "name": "rock/commonly-method",
+    "description": ":rocket: PHP项目常用功能",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RockLD",
+            "email": "lid18149@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "hello\\": "src/"
+        }
+    }
+}
